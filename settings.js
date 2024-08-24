@@ -8,12 +8,12 @@ function convertToBool(text, fault = 'true') {
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
 const BOTNAME = 'VAJIRA-MD|-WA-BOT™';
 const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
-global.owner = process.env.OWNER_NUMBER  || '94724575832' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '94773252469' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=aQEHwQgI#EI47ojSycuWeONiH-4m0Kdx3LMi6MGwH9nULfa1IfnM ' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=eVU2AJaS#K6PQgrkQNQrUqPSCNpUkrqf7WBKxOsfYROsVf7K_2q8' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
-MODERATORS : process.env.MODERATORS === undefined ? "94724575832" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "94773252469" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
 OWNER_NAME: process.env.OWNER_NAME || 'Sadiya' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
